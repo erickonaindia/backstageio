@@ -71,9 +71,9 @@ auth:
     # See https://backstage.io/docs/auth/guest/provider
     microsoft:
       development:
-        clientId: 9e2d7733-a0f8-45b9-8501-1d69c7e067d5
-        clientSecret: NtO8Q~2NmeptPTqjodQ9s~uwY09I8vJ_NiEoVaqo
-        tenantId: 07a2b1ca-d238-48f6-b536-0e6ec162f69f
+        clientId: ${AZURE_TOKEN}
+        clientSecret: ${AZURE_TOKEN}
+        tenantId: ${AZURE_TOKEN}
 
 scaffolder:
   # see https://backstage.io/docs/features/software-templates/configuration for software template options
